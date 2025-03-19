@@ -1,0 +1,102 @@
+/* Apply styles to the body */
+body {
+    font-family: 'Arial', sans-serif; /* Default font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6; /* Improve readability */
+  }
+  
+  /* Style the header (h1) */
+  h1 {
+    font-family: 'Georgia', serif; /* Different font for the header */
+    font-size: 2.5em; /* Larger font size */
+    color: #2c3e50; /* Dark blue color */
+    text-align: center; /* Center-align the header */
+    margin-bottom: 20px; /* Add space below the header */
+  }
+  
+  /* Style the ordered list with Roman numerals */
+  ol {
+    font-family: 'Courier New', monospace; /* Monospace font for the list */
+    font-size: 1.1em; /* Slightly larger font size */
+    margin: 15px 0; /* Add margin around the list */
+    padding-left: 40px; /* Add padding to the left of the list */
+  }
+  
+  /* Style the image */
+  img {
+    display: block; /* Make the image a block element */
+    margin: 20px auto; /* Center the image with margin */
+    border: 5px solid #3498db; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%; /* Make the table full width */
+    border-collapse: collapse; /* Remove space between table cells */
+    margin: 20px 0; /* Add margin around the table */
+  }
+  
+  /* Style table headers and cells */
+  th, td {
+    padding: 10px; /* Add padding inside cells */
+    border: 1px solid #ddd; /* Light gray border */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #3498db; /* Blue background for headers */
+    color: white; /* White text for headers */
+    font-weight: bold; /* Bold text */
+  }
+  
+  /* Style the registration form */
+  form {
+    background-color: white; /* White background for the form */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    margin: 20px 0; /* Add margin around the form */
+  }
+  
+  /* Style form labels */
+  label {
+    font-weight: bold; /* Bold labels */
+    margin-top: 10px; /* Add space above labels */
+    display: block; /* Make labels block elements */
+  }
+  
+  /* Style form inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  select {
+    width: 100%; /* Make inputs full width */
+    padding: 10px; /* Add padding inside inputs */
+    margin: 10px 0; /* Add margin around inputs */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Style the submit button */
+  button {
+    background-color: #3498db; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 1em; /* Font size */
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
